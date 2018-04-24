@@ -1,0 +1,5 @@
+server:
+  port: 8080
+demoPojo:
+  type: "折扣"
+  quota: 600
