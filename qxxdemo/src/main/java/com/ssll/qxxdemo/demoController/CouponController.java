@@ -47,6 +47,7 @@ public class CouponController {
         coupon.setName(name);
         coupon.setId(id);
         coupon.setCode(code);
+        System.out.println("");
         return couponService.save(coupon);
     }
 }
