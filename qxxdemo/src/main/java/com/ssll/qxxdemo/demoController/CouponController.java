@@ -48,6 +48,8 @@ public class CouponController {
         coupon.setId(id);
         coupon.setCode(code);
         System.out.println("");
+        System.out.println("i want to try marge again~");
+        //why do this?    : (
         return couponService.save(coupon);
     }
 }
